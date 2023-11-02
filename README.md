@@ -30,5 +30,5 @@ Follow these steps to get the project up and running on your local machine for d
 4. Test report can be found under:
    ```sh
    cd pagefreezer/publicportal/target/pagefreezer-reports.html
-   
-5. The report should display a result indicating that out of 4 test cases, 3 have passed successfully, while one has failed.   
+
+5. The report should show an outcome where, from a total of six test cases, five have concluded successfully, and one has not. The singular failure pertains to Accessibility testing and is an intentional inclusion to demonstrate the report's ability to distinguish and document both successful and unsuccessful results. 

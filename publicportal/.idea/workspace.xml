@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cea4933e-ab28-465d-8784-335c7dd3829d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pagefreezer/utils/PFConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pagefreezer/config/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pagefreezer/config/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pagefreezer/stepdefinitions/AccessibilitySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pagefreezer/stepdefinitions/AccessibilitySteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pagefreezer/utils/SeleniumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pagefreezer/utils/SeleniumUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/websitetab.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/websitetab.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/search.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
