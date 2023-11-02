@@ -36,8 +36,8 @@ public class AccessibilitySteps {
         // You can follow the previous example to inject axe-core and run the checks
     }
 
-    @Then("I should see no accessibility violations")
-    public void i_should_see_no_accessibility_violations() {
+    @Then("I should see accessibility violations")
+    public void i_should_see_accessibility_violations() {
         try {
             // Inject axe-core JavaScript into the page
             String axeScript = new String(Files.readAllBytes(Paths.get("src/test/resources/axe.min.js")));

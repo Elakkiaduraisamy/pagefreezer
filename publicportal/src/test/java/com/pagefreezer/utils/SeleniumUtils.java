@@ -31,5 +31,9 @@ public class SeleniumUtils {
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
 
+    public String getTextFromWebElement(WebElement element) {
+        return element.getText();
+    }
+
 }
 
