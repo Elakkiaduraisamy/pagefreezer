@@ -15,7 +15,7 @@ public class SeleniumUtils {
 
     public SeleniumUtils(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // You can customize the timeout value
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(PFConstants.WAIT_DURATION_SECONDS)); // You can customize the timeout value
     }
 
     public WebElement waitForVisibilityOfElement(WebElement element) {

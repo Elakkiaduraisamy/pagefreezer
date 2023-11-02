@@ -1,5 +1,6 @@
 package com.pagefreezer.config;
 
+import com.pagefreezer.utils.PFConstants;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -24,7 +25,7 @@ public class ConfigReader {
     }
 
     public static String getBaseUrl() {
-        return getProperty("baseUrl");
+        return getProperty(PFConstants.BASE_URL_PROPERTY_KEY);
     }
 
     // Add other methods to get other configurations as needed

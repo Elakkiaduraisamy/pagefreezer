@@ -1,5 +1,6 @@
 package com.pagefreezer.stepdefinitions;
 
+import com.pagefreezer.utils.PFConstants;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.JavascriptExecutor;
@@ -20,7 +21,7 @@ public class AccessibilitySteps extends HomePageBaseStep  {
     // Load the axe script only once and reuse
     private String getAxeScript() throws IOException {
         if (axeScript == null) {
-            axeScript = new String(Files.readAllBytes(Paths.get("src/test/resources/axe.min.js")));
+            axeScript = new String(Files.readAllBytes(Paths.get(PFConstants.AXE_JS_FILE)));
         }
         return axeScript;
     }
