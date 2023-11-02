@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = {"com.pagefreezer.stepdefinitions","com.pagefreezer.utils"},
-        plugin = {"pretty", "html:target/cucumber-reports.html"},
+        plugin = {"pretty", "html:target/pagefreezer-reports.html"},
         monochrome = true
 )
 public class TestRunner {
