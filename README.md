@@ -2,7 +2,7 @@
 
 ## Description
 
-This is to automation for PageFreezer public portal. 
+This repository hosts the automation suite for the PageFreezer public portal. It leverages a Behavior-Driven Development (BDD) approach, utilizing Java, Selenium, and Cucumber in conjunction with the Page Object Model pattern to conduct tests and ensure the portal's functionality is validated effectively
 
 ## Prerequisites
 
