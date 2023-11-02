@@ -1,5 +1,6 @@
 package com.pagefreezer.pages;
 
+import com.pagefreezer.stepdefinitions.AccessibilitySteps;
 import com.pagefreezer.utils.SeleniumUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,31 +11,31 @@ import org.openqa.selenium.support.PageFactory;
 
 
 public class HomePage extends BasePage {
-    private static final Logger logger = LogManager.getLogger(HomePage.class);
     private static HomePage instance;
-    private SeleniumUtils seleniumUtils;
 
     @FindBy(css = "input[aria-label='searchKeyword']")
     private WebElement searchInput;
+
     @FindBy(css = "button.ant-btn.public-portal-search-icon")
     private WebElement searchIcon;
+
     @FindBy(xpath = "//nz-select[@nzplaceholder = \"Select Accounts\"]")
     private WebElement selectAccounts;
+
     @FindBy(xpath = "//span[text() =' Select All ']")
     private WebElement selectAll;
     @FindBy(xpath = "//span[contains(text() ,'All Social Media')]")
     private WebElement allSocialMedia;
     @FindBy(xpath = "//span[contains(text() ,'All Websites')]")
     private WebElement allWebsites;
+
     @FindBy(xpath = "//h2[contains(text() ,'No Results Found')]")
     private WebElement noResult;
-
 
     // Add other WebElements and methods here
 
     public HomePage(WebDriver driver) {
-        super(driver);
-        this.seleniumUtils = new SeleniumUtils(driver);
+        super(driver, LogManager.getLogger(HomePage.class));
     }
 
     public static HomePage getInstance(WebDriver driver) {
