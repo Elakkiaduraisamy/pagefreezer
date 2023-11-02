@@ -1,6 +1,6 @@
 Feature: Accessibility Testing
 
   Scenario: Check Accessibility on Home Page
-    Given I am on the home page
-    When I perform accessibility check
-    Then I should see accessibility violations
+    Given User is on the Home Page
+    When User perform accessibility check
+    Then User should see no accessibility violations

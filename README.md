@@ -31,4 +31,4 @@ Follow these steps to get the project up and running on your local machine for d
    ```sh
    cd pagefreezer/publicportal/target/pagefreezer-reports.html
    
-   
+5. The report should display a result indicating that out of 4 test cases, 3 have passed successfully, while one has failed.   

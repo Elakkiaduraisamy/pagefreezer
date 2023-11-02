@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cea4933e-ab28-465d-8784-335c7dd3829d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pagefreezer/stepdefinitions/CommonSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pagefreezer/stepdefinitions/HomePageBaseStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pagefreezer/stepdefinitions/WebsitesTabSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/websitetab.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pagefreezer/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pagefreezer/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/pagefreezer/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pagefreezer/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pagefreezer/stepdefinitions/AccessibilitySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pagefreezer/stepdefinitions/AccessibilitySteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pagefreezer/stepdefinitions/SearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pagefreezer/stepdefinitions/SearchSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/accessibility.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/accessibility.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +56,9 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.pagefreezer.utils" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pagefreezer.stepdefinitions" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">

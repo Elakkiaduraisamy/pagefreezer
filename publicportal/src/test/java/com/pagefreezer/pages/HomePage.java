@@ -1,13 +1,12 @@
 package com.pagefreezer.pages;
 
-import com.pagefreezer.stepdefinitions.AccessibilitySteps;
-import com.pagefreezer.utils.SeleniumUtils;
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+
+import java.util.List;
 
 
 public class HomePage extends BasePage {
@@ -28,9 +27,13 @@ public class HomePage extends BasePage {
     private WebElement allSocialMedia;
     @FindBy(xpath = "//span[contains(text() ,'All Websites')]")
     private WebElement allWebsites;
-
     @FindBy(xpath = "//h2[contains(text() ,'No Results Found')]")
     private WebElement noResult;
+    @FindBy(css = "cssSelector(\".ant-table-tbody .ant-table-row\")")
+    private WebElement tableRows;
+    @FindBy(xpath = "//div[@role='tab' and text()='Websites']")
+    private WebElement webSiteTab;
+
 
     // Add other WebElements and methods here
 
@@ -76,6 +79,15 @@ public class HomePage extends BasePage {
         seleniumUtils.waitForVisibilityOfElement(noResult);
         logger.info("element is visible");
         return seleniumUtils.getTextFromWebElement(noResult);
+    }
+
+    public void clickTabElement(String tabName){
+        seleniumUtils.waitForVisibilityOfElement(webSiteTab);
+        webSiteTab.click();
+    }
+
+    public List<WebElement> getRowCountFromTheTable(String s) {
+        return driver.findElements(By.cssSelector(".ant-table-tbody .ant-table-row"));
     }
     // Add other methods here
 }
