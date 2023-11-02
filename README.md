@@ -26,5 +26,9 @@ Follow these steps to get the project up and running on your local machine for d
 3. Run the Test:
    ```sh
    mvn clean test
+
+4. Test report can be found under:
+   ```sh
+   cd pagefreezer/publicportal/target/pagefreezer-reports.html
    
    
