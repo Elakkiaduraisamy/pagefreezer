@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cea4933e-ab28-465d-8784-335c7dd3829d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pagefreezer/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pagefreezer/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pagefreezer/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pagefreezer/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pagefreezer/utils/CFWebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pagefreezer/utils/CFWebDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/accessibility.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/accessibility.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

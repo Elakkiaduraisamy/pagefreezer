@@ -38,7 +38,8 @@ public class HomePage extends BasePage {
     // Add other WebElements and methods here
 
     public HomePage(WebDriver driver) {
-        super(driver, LogManager.getLogger(HomePage.class));
+
+        super(driver);
     }
 
     public static HomePage getInstance(WebDriver driver) {
